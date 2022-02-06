@@ -1,0 +1,148 @@
+/* &display=swap */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@font-face {
+	font-family: "Ripster";
+	src: url("../fonts/Ripster-Regular.woff2") format("woff2"), url("../fonts/Ripster-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 10px;
+}
+
+.nav {
+	color: blueviolet;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: "ripster", serif;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.about {
+	font-family: "ripster", serif;
+	font-size: 10px;
+	text-align: justify;
+	color: aquamarine;
+}
+
+.center-text {
+	color: rgb(173, 120, 50);
+	font-size: 15px;
+	text-align: center;
+}
+.justify-text {
+	font-family: "ripster", serif;
+	color: brown;
+	font-size: 10px;
+	text-align: justify;
+}
+
+.left-text {
+	color: rgb(52, 165, 42);
+	font-size: 12px;
+	font-weight: 900;
+	text-align: left;
+}
+
+.right-text {
+	color: rgb(230, 5, 218);
+	font-size: 12px;
+	font-weight: 100;
+	font-style: italic;
+	text-align: right;
+}
+
+.line-through-text {
+	text-decoration: line-through;
+}
+
+.overline-text {
+	text-decoration: overline;
+}
+
+.underline-text {
+	text-decoration: underline;
+}
+
+.none-text {
+	text-decoration: none;
+	color: blue;
+}
+
+.shadow-text {
+	color: blueviolet;
+	text-shadow: 10px 2px 5px rgb(230, 5, 218);
+}
+
+.capitalize-text {
+	text-transform: capitalize;
+	font-weight: 100;
+}
+
+.lowercase-text {
+	text-transform: lowercase;
+}
+
+.uppercase-text {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-style: italic;
+}
+
+.none-text-transform {
+	text-transform: none;
+}
+
+.line-heigth-text {
+	color: red;
+	line-height: 5;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.text-indent-text {
+	text-indent: 50px;
+}
+
+.letter-spasing-text {
+	letter-spacing: 10px;
+	text-align: justify;
+}
+
+.white-space-text {
+	white-space: nowrap;
+}
+
+.word-spacing-text {
+	word-spacing: 15px;
+	font-weight: 600;
+}
+
+.img-footer {
+	text-align: right;
+}
+
+.img-header {
+	text-align: center;
+}
+
+.up {
+	color: blue;
+	font-size: 20px;
+	text-shadow: 0px 0px 5px #000;
+	font-weight: 900;
+	text-align: center;
+}
